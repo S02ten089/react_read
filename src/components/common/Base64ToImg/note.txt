@@ -1,0 +1,15 @@
+import React from 'react';
+import Base64ToImg from './Base64ToImg';
+
+const App: React.FC = () => {
+  const base64String = "Your Base64 String Here";
+
+  return (
+    <div>
+      <h1>Base64 to Image</h1>
+      <Base64ToImg base64String={base64String} alt="Image" />
+    </div>
+  );
+};
+
+export default App;

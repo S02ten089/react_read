@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ErrorAlert from './ErrorAlert';
+import ErrorAlert from '../Error/ErrorAlert';
 
 const Home: React.FC = () => {
   const [error, setError] = useState<string | null>(null);

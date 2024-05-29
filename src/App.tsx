@@ -1,11 +1,11 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import NotFound from './components/NotFound';
-import Login from './components/Login';
-import ErrorBoundary from './components/ErrorBoundary';
-import LoginList from './components/ListLogin'
+import Home from './components/common/Home';
+import About from './components/common/About';
+import NotFound from './components/Error/NotFound';
+import Login from './components/common/Login/Login';
+import ErrorBoundary from './components/Error/ErrorBoundary';
+import LoginList from './components/common/Login/ListLogin'
 const App: React.FC = () => {
   return (
     <div className="App">
