@@ -8,6 +8,7 @@ import ErrorBoundary from './components/Error/ErrorBoundary';
 import LoginList from './components/common/Login/ListLogin'
 import UseActionState from './components/Hooks/useActionState/VD_Use/use_Api'
 import UseCallback from './components/Hooks/useCallback/index'
+import UseContext from './components/Hooks/useContext/App';
 const App: React.FC = () => {
   return (
     <div className="App">
@@ -27,6 +28,7 @@ const App: React.FC = () => {
           {/* ví dụ Hooks*/}
           <Route path="/hooks/use_api/UseActionState" element={<UseActionState />} />
           <Route path="/hooks/use_api/useCallback" element={<UseCallback />} />
+          <Route path="/hooks/use_api/EmployeeList" element={<UseContext />} />
         </Routes>
       </ErrorBoundary>
     </div>
