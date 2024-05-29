@@ -1,8 +1,5 @@
 import React from 'react';
-
-interface ErrorAlertProps {
-  message: string;
-}
+import { ErrorAlertProps } from './ErrorAlertProps';
 
 const ErrorAlert: React.FC<ErrorAlertProps> = ({ message }) => {
   return (

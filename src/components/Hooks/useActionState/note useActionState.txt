@@ -1,0 +1,6 @@
+
+-- Khi thành phần sử dụng hook này, 
+    bạn có thể gọi hàm "performAction" để thực hiện các hành động cụ thể, 
+    chẳng hạn như gửi yêu cầu API, 
+    mở cửa sổ modal, 
+    hoặc bất kỳ hành động nào khác bạn cần.
